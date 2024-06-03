@@ -1,0 +1,5 @@
+scheduler:
+  cron:
+    daily-at-midnight-1: "0 0 * * * ?"
+    daily-at-midnight-2: "1 0 * * * ?"
+    daily-at-midnight-3: "2 0 * * * ?"

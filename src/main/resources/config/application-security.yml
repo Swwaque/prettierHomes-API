@@ -1,0 +1,5 @@
+security:
+  token:
+    prefix: Bearer
+    secret: Bukismauzunbirmetingirilmesigerekebilirnormaldeboyleolmazamasimdilikidareetsindiyeboyleyaziyorum
+    validity: 259200000 # 3 days

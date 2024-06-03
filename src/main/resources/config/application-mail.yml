@@ -1,0 +1,44 @@
+# Gmail SMTP
+spring:
+  mail:
+    default-encoding: UTF-8
+    host: smtp.gmail.com
+    port: 587
+    username: prettier.homes.noreply@gmail.com
+    password: sbdv kchz cldp pfru
+    protocol: smtp
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+          connectiontimeout: 5000
+          timeout: 3000
+          writetimeout: 5000
+
+
+email:
+  account:
+    activate:
+      subject: Activation Email
+      template: email-activate-template.ftl
+      email-img: activate.png
+      text: |
+        <In this property, you can set the text of the email.>
+    forgot:
+      subject: Forgot Password
+      template: forgot-password-mail.ftl
+      email-img: https://i.imgur.com/P5FfKNl.png
+      text: |
+        <In this property, you can set the text of the email.>
+    confirmation:
+      subject: Confirmation Email !
+      template: account-confirmation-mail.ftl
+      text: |
+        <In this property, you can set the text of the email.>
+    check-tour-request:
+      subject: Appointment Information Email !
+      template: check-tour-request-mail.ftl
+      text: |
+        <In this property, you can set the text of the email.>   
